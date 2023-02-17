@@ -1,0 +1,33 @@
+.navBarContainer {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.homePageContainer {
+  max-width: 1200px;
+  margin: 0 auto 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  .filtersContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 12px;
+  }
+  .productContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    column-gap: 16px;
+  }
+  .search {
+    width: 50%;
+    align-self: center;
+  }
+  .cardsAmount {
+    text-align: start;
+  }
+}
